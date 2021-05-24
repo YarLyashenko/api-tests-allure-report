@@ -1,0 +1,117 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.toptal.screening.cartes.MarkersTest",
+    "children" : [ {
+      "name" : "updateMarker",
+      "uid" : "5a29c67e5dda02a6",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621888884986,
+        "stop" : 1621888885399,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "postMarkerWithoutRequiredFields",
+      "uid" : "bb00229b60ac086",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888885460,
+        "stop" : 1621888886044,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "updateMarkerWithoutRequiredFields",
+      "uid" : "6c9781423a1ff405",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621888886051,
+        "stop" : 1621888886322,
+        "duration" : 271
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "updateMarkerForNonExistentId",
+      "uid" : "65cf09272593305e",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888886335,
+        "stop" : 1621888886625,
+        "duration" : 290
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "postMarkerForNonExistentMap",
+      "uid" : "6cffd4e67b4f4127",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888886634,
+        "stop" : 1621888886891,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createMarker",
+      "uid" : "ad0bab1730a8767",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888886897,
+        "stop" : 1621888887431,
+        "duration" : 534
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unsupportedMarkersMethods",
+      "uid" : "66cfc788e3c6f9c1",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888887478,
+        "stop" : 1621888887773,
+        "duration" : 295
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unsupportedMarkersMethods",
+      "uid" : "841130a5c4dc182b",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888887787,
+        "stop" : 1621888888055,
+        "duration" : 268
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "unsupportedMarkersMethods",
+      "uid" : "1700e072100b177a",
+      "parentUid" : "78b08df244f9618e8282eb12cfb5dc50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621888888063,
+        "stop" : 1621888888329,
+        "duration" : 266
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.toptal.screening.cartes.MarkersTest"
+  } ]
+}

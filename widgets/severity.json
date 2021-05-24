@@ -1,0 +1,91 @@
+[ {
+  "uid" : "bb00229b60ac086",
+  "name" : "POST: create a marker without required fields",
+  "time" : {
+    "start" : 1621888885460,
+    "stop" : 1621888886044,
+    "duration" : 584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "841130a5c4dc182b",
+  "name" : "DELETE:Verify unsupported http methods for markers endpoint",
+  "time" : {
+    "start" : 1621888887787,
+    "stop" : 1621888888055,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a29c67e5dda02a6",
+  "name" : "PUT: update marker on a map",
+  "time" : {
+    "start" : 1621888884986,
+    "stop" : 1621888885399,
+    "duration" : 413
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cffd4e67b4f4127",
+  "name" : "POST: create a marker for non-existent map",
+  "time" : {
+    "start" : 1621888886634,
+    "stop" : 1621888886891,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c9781423a1ff405",
+  "name" : "PUT: update marker on a map without required fields",
+  "time" : {
+    "start" : 1621888886051,
+    "stop" : 1621888886322,
+    "duration" : 271
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "66cfc788e3c6f9c1",
+  "name" : "PUT:Verify unsupported http methods for markers endpoint",
+  "time" : {
+    "start" : 1621888887478,
+    "stop" : 1621888887773,
+    "duration" : 295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65cf09272593305e",
+  "name" : "PUT: update non-existent marker on a map",
+  "time" : {
+    "start" : 1621888886335,
+    "stop" : 1621888886625,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad0bab1730a8767",
+  "name" : "POST: create marker on a public map",
+  "time" : {
+    "start" : 1621888886897,
+    "stop" : 1621888887431,
+    "duration" : 534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1700e072100b177a",
+  "name" : "PATCH:Verify unsupported http methods for markers endpoint",
+  "time" : {
+    "start" : 1621888888063,
+    "stop" : 1621888888329,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

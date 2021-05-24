@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "6b6a37fbcb64751abb9a9119f7cbab03",
+    "name" : "com.toptal.screening.cartes.MarkersTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

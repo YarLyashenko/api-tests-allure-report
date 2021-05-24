@@ -1,0 +1,202 @@
+{
+  "uid" : "66cfc788e3c6f9c1",
+  "name" : "PUT:Verify unsupported http methods for markers endpoint",
+  "fullName" : "com.toptal.screening.cartes.MarkersTest.unsupportedMarkersMethods",
+  "historyId" : "915fbe087f89eacda9a23bbec0f51744",
+  "time" : {
+    "start" : 1621888887478,
+    "stop" : 1621888887773,
+    "duration" : 295
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "createMap",
+    "time" : {
+      "start" : 1621888878862,
+      "stop" : 1621888884915,
+      "duration" : 6053
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create new map",
+      "time" : {
+        "start" : 1621888880643,
+        "stop" : 1621888884250,
+        "duration" : 3607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6f39f16fe2c9d84",
+        "name" : "Request",
+        "source" : "b6f39f16fe2c9d84.html",
+        "type" : "text/html",
+        "size" : 1041
+      }, {
+        "uid" : "a89661f70622f26c",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "a89661f70622f26c.html",
+        "type" : "text/html",
+        "size" : 1353
+      } ],
+      "parameters" : [ {
+        "name" : "request",
+        "value" : "MapRequest(title=wzLCVsqaKigXNVA, slug=null, description=mdCLuzFqxRRKDefWAEtaJoeXLoAdVlEeFXsOfueTSSSBrerDMqBM, privacy=public, usersCanCreateMarkers=yes)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Create new marker",
+      "time" : {
+        "start" : 1621888884269,
+        "stop" : 1621888884912,
+        "duration" : 643
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Send POST request to the markers endpoint",
+        "time" : {
+          "start" : 1621888884270,
+          "stop" : 1621888884874,
+          "duration" : 604
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fed3b5b718ed34ff",
+          "name" : "Request",
+          "source" : "fed3b5b718ed34ff.html",
+          "type" : "text/html",
+          "size" : 1255
+        }, {
+          "uid" : "14088e532615e1cd",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "14088e532615e1cd.html",
+          "type" : "text/html",
+          "size" : 2087
+        } ],
+        "parameters" : [ {
+          "name" : "mapId",
+          "value" : "c98d62ce-c5cc-4d1e-bbc3-1d470051dcd0"
+        }, {
+          "name" : "body",
+          "value" : "MarkerRequest(categoryName=XcpsaMCqxGQovSYEgu, longitude=38.146976540215874, mapToken=v0pBMK0YryEmOSGxye2RaEDTN9LzDyoq, description=evrYkCvKMslUKnqDgypIlnE, category=-1, loading=null, latitude=33.31327227913496)"
+        }, {
+          "name" : "expectedStatusCode",
+          "value" : "201"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "mapId",
+        "value" : "c98d62ce-c5cc-4d1e-bbc3-1d470051dcd0"
+      }, {
+        "name" : "body",
+        "value" : "MarkerRequest(categoryName=XcpsaMCqxGQovSYEgu, longitude=38.146976540215874, mapToken=v0pBMK0YryEmOSGxye2RaEDTN9LzDyoq, description=evrYkCvKMslUKnqDgypIlnE, category=-1, loading=null, latitude=33.31327227913496)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 3
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Send PUT request to the Markers endpoint",
+      "time" : {
+        "start" : 1621888887514,
+        "stop" : 1621888887772,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c2d7493884b3eea9",
+        "name" : "Request",
+        "source" : "c2d7493884b3eea9.html",
+        "type" : "text/html",
+        "size" : 531
+      }, {
+        "uid" : "bb2c8fdb73a8c12b",
+        "name" : "HTTP/1.1 200 OK",
+        "source" : "bb2c8fdb73a8c12b.html",
+        "type" : "text/html",
+        "size" : 601
+      } ],
+      "parameters" : [ {
+        "name" : "httpMethod",
+        "value" : "PUT"
+      }, {
+        "name" : "mapId",
+        "value" : "c98d62ce-c5cc-4d1e-bbc3-1d470051dcd0"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Y700"
+  }, {
+    "name" : "thread",
+    "value" : "33112@Y700.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.toptal.screening.cartes.MarkersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.toptal.screening.cartes.MarkersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unsupportedMarkersMethods"
+  }, {
+    "name" : "suite",
+    "value" : "com.toptal.screening.cartes.MarkersTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66cfc788e3c6f9c1.json",
+  "parameterValues" : [ ]
+}

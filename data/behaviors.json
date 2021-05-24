@@ -1,0 +1,113 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "PUT: update marker on a map",
+    "uid" : "5a29c67e5dda02a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1621888884986,
+      "stop" : 1621888885399,
+      "duration" : 413
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST: create a marker without required fields",
+    "uid" : "bb00229b60ac086",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888885460,
+      "stop" : 1621888886044,
+      "duration" : 584
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT: update marker on a map without required fields",
+    "uid" : "6c9781423a1ff405",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1621888886051,
+      "stop" : 1621888886322,
+      "duration" : 271
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT: update non-existent marker on a map",
+    "uid" : "65cf09272593305e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888886335,
+      "stop" : 1621888886625,
+      "duration" : 290
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST: create a marker for non-existent map",
+    "uid" : "6cffd4e67b4f4127",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888886634,
+      "stop" : 1621888886891,
+      "duration" : 257
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "POST: create marker on a public map",
+    "uid" : "ad0bab1730a8767",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888886897,
+      "stop" : 1621888887431,
+      "duration" : 534
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PUT:Verify unsupported http methods for markers endpoint",
+    "uid" : "66cfc788e3c6f9c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888887478,
+      "stop" : 1621888887773,
+      "duration" : 295
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DELETE:Verify unsupported http methods for markers endpoint",
+    "uid" : "841130a5c4dc182b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888887787,
+      "stop" : 1621888888055,
+      "duration" : 268
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PATCH:Verify unsupported http methods for markers endpoint",
+    "uid" : "1700e072100b177a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621888888063,
+      "stop" : 1621888888329,
+      "duration" : 266
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
